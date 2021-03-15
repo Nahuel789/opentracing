@@ -17,6 +17,6 @@ public class TracedResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String hello(){
         LOG.info("hello world");
-        return "hello";
+        return "hello world";
     }
 }
